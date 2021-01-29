@@ -118,8 +118,8 @@ const isWideChar = (char) => {
 const renderBlank = (maxWidth) => {
   // const num = Math.floor((maxWidth + 1) / 4);
   // return [''.padEnd(num, ' '), num * 4];
-  const num = Math.floor((maxWidth + 1) / 3.8);
-  return [''.padEnd(num, ' '), num * 3.8];
+  const num = Math.floor((maxWidth + 1) / 3.9);
+  return [''.padEnd(num, ' '), num * 3.9];
 }
 
 const createTimelines = (schedule, currentTime, startTime, endTime) => {
