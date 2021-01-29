@@ -1,0 +1,26 @@
+{
+  "name": "slack-schedule-formatter",
+  "version": "1.0.0",
+  "description": "create formatted schedule message for slack",
+  "main": "index.js",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatee/slack-schedule-formatter.git"
+  },
+  "author": "shatee",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shatee/slack-schedule-formatter/issues"
+  },
+  "homepage": "https://github.com/shatee/slack-schedule-formatter#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
